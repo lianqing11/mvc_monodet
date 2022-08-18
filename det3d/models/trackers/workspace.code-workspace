@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../software/mmtracking"
+		},
+		{
+			"path": "../../../../ocsort"
+		}
+	],
+	"settings": {}
+}

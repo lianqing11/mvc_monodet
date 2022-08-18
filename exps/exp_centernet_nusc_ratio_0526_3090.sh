@@ -1,0 +1,2 @@
+./tools/dist_train.sh configs/centernet3d/centernet3d_dla34_nusc_75res.py 10 12322 --cfg-options data.train.times=2 data.samples_per_gpu=8 data.workers_per_gpu=4 data.train.dataset.load_interval_shuffle=10 # 10
+./tools/dist_train.sh configs/centernet3d/centernet3d_dla34_nusc_75res.py 10 4322 --cfg-options data.train.times=2 data.samples_per_gpu=8 data.workers_per_gpu=4 data.train.dataset.load_interval_shuffle=2 # 10
